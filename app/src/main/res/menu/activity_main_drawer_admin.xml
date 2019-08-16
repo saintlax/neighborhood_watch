@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_add_members"
+            android:icon="@drawable/ic_add_group_black"
+            android:title="Add Members" />
+        <item
+            android:id="@+id/nav_family"
+            android:icon="@drawable/ic_group_black"
+            android:title="My Family" />
+        <item
+            android:id="@+id/nav_distress"
+            android:icon="@drawable/ic_call_black"
+            android:title="Make Distress Call" />
+        <item
+            android:id="@+id/nav_eye_witness"
+            android:icon="@drawable/ic_eye_primary"
+            android:title="Eye Witness Report" />
+        <item
+            android:id="@+id/nav_levies"
+            android:icon="@drawable/ic_dollar_black"
+            android:title="My Levies" />
+        <item
+            android:id="@+id/nav_dues"
+            android:icon="@drawable/ic_dollar_black"
+            android:title="My Dues" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_join_neighborhood"
+            android:icon="@drawable/ic_add_group_black"
+            android:title="Join Neighborhood" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_live_help_black"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/ic_star_half_black"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_power"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

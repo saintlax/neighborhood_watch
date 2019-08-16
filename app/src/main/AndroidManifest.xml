@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="caller.com.testnav">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true"/>
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <!--ic_vampire_logo
+    ic_primary_logo
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_primaryy_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_primaryy_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LevyPaymentActivity"
+            android:label="@string/title_activity_levy_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DuePaymentActivity"
+            android:label="@string/title_activity_levy_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_levy_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LocationActivity"
+            android:label="@string/title_activity_levy_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OccupantsActivity"
+            android:label="@string/title_contacts_contacts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserLeviesHistoryActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserUnpaidLeviesHistoryActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChatActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaymentSummaryActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactsActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactsSearchActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReadEyeWitnessActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TestMapsActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--         <service android:name="services.LocationMonitoringService" /> -->
+        <receiver android:name="services.BootReciever"/><!--android:process=":remote"-->
+        <receiver android:name="services.LocationBootReciever" />
+        <receiver
+            android:name="services.RestartAlarm"
+            android:enabled="true"><!--android:process=":remote"-->
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <!--<receiver
+            android:name="services.RestartLocationAlarm"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>-->
+
+        <service
+            android:name="services.SecurityService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="services.LocationService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

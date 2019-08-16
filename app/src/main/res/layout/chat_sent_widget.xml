@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/llaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right">
+
+            <LinearLayout
+                android:id="@+id/v1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/pad_10dp"
+                android:background="@drawable/xml_chat_border"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/pad_5dp"
+                android:paddingLeft="@dimen/pad_5dp"
+                android:paddingRight="@dimen/pad_chat_item"
+                android:paddingTop="@dimen/pad_5dp" >
+
+                <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+                    android:id="@+id/message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_13sp" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.10 am"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_14sp"
+                    android:maxLines="4"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="textvdv"
+                android:textColor="@color/main_color_gray"
+                android:textSize="@dimen/txt_14sp"
+                android:layout_alignRight="@+id/v1"
+                android:layout_below="@+id/v1"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:layout_marginRight="@dimen/pad_20dp"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

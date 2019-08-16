@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container">
+    <!--@color/gray_light-->
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/gridView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView"
+        android:numColumns="2"/>
+    <!-- TODO: Update blchikadibia.pgc.com.pgc.fragmentment layout -->
+
+
+</FrameLayout>

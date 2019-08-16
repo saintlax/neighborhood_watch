@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="15dp"
+    android:paddingLeft="@dimen/pad_10dp">
+
+    <helper.RoundedImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="40dp"
+        android:padding="@dimen/pad_10dp"
+        android:paddingLeft="@dimen/pad_30dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_flag_primary" />
+</LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/menu_name"
+    android:text="Home"
+    android:textStyle="bold"
+    android:padding="@dimen/pad_10dp"
+    android:layout_marginTop="@dimen/pad_5dp"/>
+</LinearLayout>
+

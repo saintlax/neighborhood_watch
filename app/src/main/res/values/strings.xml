@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Neighbourhood Watch</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_streets">Streets</string>
+    <string name="menu_occupants">Occupants</string>
+    <string name="menu_levies">Levies</string>
+    <string name="menu_dues">Dues</string>
+    <string name="menu_distress">Distress</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_profile">My Profile</string>
+    <string name="menu_family">My Family</string>
+    <string name="menu_payment_summary">Summary</string>
+    <string name="menu_broadcast">Broadcast</string>
+    <string name="menu_call_ambulance">Call an ambulance</string>
+    <string name="menu_history">History</string>
+    <string name="menu_eye_witness">Eye Witness</string>
+    <string name="menu_reports">Reports</string>
+    <string name="menu_districts">Districts</string>
+    <string name="menu_administrators">Administrators</string>
+    <string name="menu_hotlines">Hotlines</string>
+    <string name="menu_agency">Agencies</string>
+    <string name="landlord">I am a Landlord</string>
+    <string name="caretaker">I am a caretaker</string>
+    <string name="tenant">I am a tenant</string>
+    <string name="family">Family or Friends with Tenant</string>
+    <string name="admin">ADMINISTRATOR</string>
+    <string name="super_admin">SUPER ADMINISTRATOR</string>
+    <string name="error_no_response">There seems to be no internet connection</string>
+    <string name="title_activity_fuck">FuckActivity</string>
+    <string name="title_activity_levy_payment">Pay Levy</string>
+    <string name="msg_location_service_started">I do not know</string>
+    <string name="no_google_playservice_available">Google Play services is not available on your device</string>
+    <string name="title_alert_no_intenet">No Internet access</string>
+    <string name="msg_alert_no_internet">You need to open your internet connection so we can know where you are</string>
+    <string name="btn_label_refresh">Refresh Button</string>
+    <string name="permission_rationale">Permission Rationale</string>
+    <string name="permission_denied_explanation">Permission has been denied for reasons not defined</string>
+    <string name="settings">Settings</string>
+    <string name="title_contacts_contacts">Occupants</string>
+    <string name="main_activity_logout">Log Out Complete</string>
+    <string name="summary_show">Search</string>
+    <string name="channel_name">Security App Channel</string>
+    <string name="channel_description">Security App Channel Description for keeping you safe</string>
+    <string name="action_broadcast">Broadcast</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="all_members">All Members</string>
+    <string name="action_add_me">Add Me</string>
+    <string name="btn_show">Show</string>
+    <string name="feedback_info">How do you feel about this App?</string>
+    <string name="empty_family_list"><b>This List is empty!!!</b>\nYour family and friends living under your roof should register as FAMILY AND FRIENDS so you can track their locations during emergencies.</string>
+    <string name="about_us_message">We are an independent (privately owned) software and security based research company with emphasis on self consciousness of our immediate environment.
+Our software is data based bordering on human beings and given them general access to information bordering on his environment and safety.
+We uphold the the principle that information should be a public good; thus the platform helps to inform and educate a global community of individuals, security agents and experts, law enforcement officers and on a wider national interest the importance of good neighbourliness and security consciousness.</string>
+    <string name="eye_witness_note">NOTE: Be informed that valid eye witness reports will be attended to. Irrelevant reports can get your account suspended</string>
+    <string name="join_neighborhood_info">If you belong to another neighborhood watch example in your place of work or school, you can proceed to join</string>
+
+    <string name="send_anonymoulsy_info">Send Report anonymously</string>
+    <string name="all_neighborhoods">All Neighborhoods</string>
+</resources>

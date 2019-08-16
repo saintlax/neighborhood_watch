@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796B</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white_smoke">#F7F7F7</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentWhite">#cccccc</color>
+    <color name="gold">#E5E213</color>
+    <color name="gold_2">#E5E518</color>
+    <color name="red">#E51509</color>
+
+    <color name="main_color_green">#00b863</color>
+    <color name="main_color_gray_dk">#3b3b3b</color>
+    <color name="main_color_gray_lt">#acacac</color>
+    <color name="main_color_gray">#7d7d7d</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="lime_green">#32CD32</color>
+    <color name="lime">#00FF00</color>
+    <color name="forest_green">#228B22</color>
+    <color name="green">#008000</color>
+
+
+
+
+    <color name="color_1">#2a328a</color>
+    <color name="color_2">#2a328a</color>
+    <color name="color_3">#2a328a</color>
+    <color name="color_4">#2a328a</color>
+    <color name="color_5">#2a328a</color>
+    <color name="color_6">#2a328a</color>
+    <color name="color_7">#2a328a</color>
+    <color name="color_8">#2a328a</color>
+    <color name="color_9">#2a328a</color>
+    <color name="color_10">#e5e5e5</color>
+
+
+    <color name="apptheme_primary_dark">#00796b</color>
+    <color name="apptheme_accent">@android:color/white</color>
+
+    <color name="gradient_start">#50000000</color>
+    <color name="gradient_light_start">#30000000</color>
+
+    <color name="apptheme_primary">#009688</color>
+    <color name="color_11">#2a328a</color>
+    <color name="color_21">#2a328a</color>
+    <color name="color_31">#2a328a</color>
+    <color name="color_41">#2a328a</color>
+    <color name="color_51">#2a328a</color>
+    <color name="color_61">#2a328a</color>
+    <color name="color_71">#2a328a</color>
+    <color name="color_81">#2a328a</color>
+    <color name="color_91">#2a328a</color>
+
+
+    <drawable name="light_green">#3F51B5</drawable>
+    <drawable name="light_gray">#acacac</drawable>
+
+</resources>

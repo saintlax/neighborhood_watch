@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pad_15dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:ems="10"
+            android:hint="Apartment Name or Number"
+            android:imeActionId="7"
+            android:imeActionLabel="Oya"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="6"
+            android:singleLine="false" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pad_15dp">
+
+        <EditText
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="start"
+            android:ems="10"
+            android:hint="A little detail about this apartment. Eg. First Floor occupied by Chikadibia Anthony"
+            android:imeActionId="7"
+            android:imeActionLabel="Oya"
+            android:imeOptions="actionUnspecified"
+            android:maxLines="6"
+            android:singleLine="false"
+            android:inputType="textMultiLine"/>
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

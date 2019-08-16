@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <helper.RoundedImageView
+            android:id="@+id/head_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingRight="@dimen/pad_30dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_user_white2"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/pad_10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/head_title"
+                android:text="User name"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/head_detail"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
